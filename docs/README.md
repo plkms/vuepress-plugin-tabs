@@ -16,7 +16,13 @@ Vuepress plugin - markdown custom container to display content in tabs from [Ele
 ### Demo 1
 :::: tabs
 ::: tab title
-__markdown content__
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
 :::
 ::: tab javascript
 ``` javascript
